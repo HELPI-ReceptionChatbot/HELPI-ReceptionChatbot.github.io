@@ -432,6 +432,32 @@ header .intro-text {
 	padding: 10px 0 0 0;
 	color: #888;
 }
+#teamcontact {
+	color: rgba(255,255,255,.75);
+}
+#teamcontact .social {
+	border-top: 1px solid rgba(255,255,255,0.15);
+	padding-top: 20px;
+	text-align: center;
+}
+#teamcontact .social ul li {
+	display: inline-block;
+}
+#teamcontact .social i.fa {
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	padding: 10px 0;
+	border: 2px solid #6C7FFC;
+	color: #ff0000;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+#teamcontact .social i.fa:hover {
+	color: #608dfd;
+	background: #fff;
+}
+
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
