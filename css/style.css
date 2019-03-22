@@ -510,6 +510,7 @@ header .intro-text {
 	width: 45px;
 	height: 45px;
 	padding: 12px 0;
+	margin-bottom: 10px;
 	border: 2px solid #fff;
 	color: #fff;
 	border-radius: 50%;
@@ -643,7 +644,7 @@ label {
 	background: #fff;
 }
 #contact .contact-item {
-	margin: 20px 0;
+	margin-top: 20px 0;
 }
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
@@ -665,6 +666,7 @@ label {
 	width: 45px;
 	height: 45px;
 	padding: 12px 0;
+	margin-bottom: 10px;
 	border: 2px solid #fff;
 	color: #fff;
 	border-radius: 50%;
