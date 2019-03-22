@@ -509,7 +509,7 @@ header .intro-text {
 	font-size: 20px;
 	width: 45px;
 	height: 45px;
-	padding: 10px 0;
+	padding: 12px 0;
 	border: 2px solid #fff;
 	color: #fff;
 	border-radius: 50%;
@@ -661,13 +661,14 @@ label {
 	margin: 0 20px;
 }
 #contact .social i.fab {
-	font-size: 22px;
-	width: 48px;
-	height: 48px;
+	font-size: 20px;
+	width: 45px;
+	height: 45px;
 	padding: 12px 0;
 	border: 2px solid #fff;
 	color: #fff;
 	border-radius: 50%;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	transition: all 0.3s;
 	text-align: center;
 }
