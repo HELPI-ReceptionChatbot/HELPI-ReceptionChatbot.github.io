@@ -678,6 +678,41 @@ label {
 	color: #608dfd;
 	background: #fff;
 }
+/*Chat Section*/
+#fax {
+    position: fixed;
+    right: 100px;
+    bottom: 150px;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 4s linear;
+}
+.fab-action-button {
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  color: #000;
+  top: 300px;
+  right: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+#overlay i.fas {
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	padding: 10px 0;
+	border: rgba(0,0,0,0.5);
+	color: #fff;
+	border-radius: 50%;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	transition: all 0.3s;
+	text-align: center;
+}
 /* Footer Section */
 #footer {
 	background: #f6f6f6;

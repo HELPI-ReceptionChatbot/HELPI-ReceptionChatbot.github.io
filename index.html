@@ -505,12 +505,33 @@
     </div>
   </div>
 </div>
+<!--Chat Section-->
+<div id="fax" style="display: block; opacity: 1;">
+  <div class="fab-action-button" align="center">
+    <span>HELPI<i class="fa fa-comments" onclick="on()"></i>Live Chat</span>
+  </div>
+</div>
+<div id="overlay">
+  <div align="center">
+	<i class="fas fa-close" onclick="off()"></i>
+  </div>
+  <span id="chat">Hello!! How I help you?</span>
+  <span class="page">
+	<form method="get" name="temp">
+	  <input type="text" name="query" id="in" style="margin: 5px" value="">
+	  <i class="fas fa-send" onclick="reply()"></i>
+	</form>
+  </span>
+  <span id="text" style="display: none"><label id="reply">HELLO</label></span>
+</div>
+
 <!-- Footer Section>
 <div id="footer">
   <div class="container text-center">
     <p>&copy; 2017 Interact. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
   </div>
 </div-->
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
@@ -518,5 +539,24 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("fax").style.display = "none";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("fax").style.display = "block";
+}
+
+function reply() {
+  temp=document.getElementById("in").value;
+  if (temp=="hello") {
+	document.getElementById("in").value = "Welcome";
+  }
+}
+</script>
+
 </body>
 </html>
