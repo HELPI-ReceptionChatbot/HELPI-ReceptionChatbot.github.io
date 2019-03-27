@@ -35,6 +35,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
     ==========================================-->
@@ -361,6 +362,7 @@
     </div>
   </div>
 </div>
+
 <!-- Team Section -->
 <div id="team" class="text-center">
   <div class="container">
@@ -368,7 +370,6 @@
       <div class="team-icon">
     	<i class="fas fa-users-cog"></i>
         <h2>Meet the Team</h2>
-        <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>-->
 	  </div>
     </div>
     <div id="row">
@@ -443,6 +444,7 @@
     </div>
   </div>
 </div>
+
 <!-- Contact Section -->
 <div id="contact">
   <div class="container">
@@ -484,10 +486,10 @@
       	<i class="far fa-address-book"></i>
       </div>
         <h3><b>Contact Info</b></h3>
-        <p><span><div class="contact-item"><i class="fa fa-map-marker"></i> Address</div></span>4321 California St,<br>
-          San Francisco, CA 12345</p>
-        <p><span><div class="contact-item"><i class="fa fa-phone"></i> Phone</div></span> +1 123 456 1234</p>
-        <p><span><div class="contact-item"><i class="fa fa-envelope"></i> Email</div></span> helpi.reception@gmail.com<br> helpi.reception@outlook.com</p>
+        <p><span><div class="contact-item"><i class="fa fa-map-marker"></i> Address</div></span> Suart, Gujarat<br>
+          India 395001</p>
+        <p><span><div class="contact-item"><i class="fa fa-phone"></i> Phone</div></span> +91 95124 66077 <br> +91 96649 68861 <br> +91 82009 39749 </p>
+        <p><span><div class="contact-item"><i class="fa fa-envelope"></i> Email</div></span>helpi.reception@outlook.com</p>
     </div>
     <div class="col-md-12">
       <div class="row">
@@ -505,6 +507,7 @@
     </div>
   </div>
 </div>
+
 <!--Chat Section-->
 <div id="fax" style="display: block; opacity: 1;">
   <div class="fab-action-button" align="center">
@@ -513,24 +516,21 @@
 </div>
 <div id="overlay">
   <div align="center">
-	<i class="fas fa-close" onclick="off()"></i>
+    <i class="fas fa-close" onclick="off()"></i>
   </div>
-  <span id="chat">Hello!! How I help you?</span>
-  <span class="page">
-	<form method="get" name="temp">
-	  <input type="text" name="query" id="in" style="margin: 5px" value="">
-	  <i class="fas fa-send" onclick="reply()"></i>
-	</form>
-  </span>
-  <span id="text" style="display: none"><label id="reply">HELLO</label></span>
+  <div class="content">
+    <div class="messages">
+      <ul>
+      </ul>
+    </div>
+    <div class="message-input">
+      <div class="wrap">
+      <input type="text" placeholder="Enter your query" />
+      <button class="submit"><i class="fas fa-send" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
 </div>
-
-<!-- Footer Section>
-<div id="footer">
-  <div class="container text-center">
-    <p>&copy; 2017 Interact. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
-  </div>
-</div-->
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
@@ -539,24 +539,8 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
-<script>
-function on() {
-  document.getElementById("overlay").style.display = "block";
-  document.getElementById("fax").style.display = "none";
-}
-
-function off() {
-  document.getElementById("overlay").style.display = "none";
-  document.getElementById("fax").style.display = "block";
-}
-
-function reply() {
-  temp=document.getElementById("in").value;
-  if (temp=="hello") {
-	document.getElementById("in").value = "Welcome";
-  }
-}
-</script>
+<script type="text/javascript" src="js/chat.js"></script>
+<script src='js/jquery-2.2.4.min.js'></script>
 
 </body>
 </html>
