@@ -708,13 +708,13 @@ label {
   background: rgba(92,169,251,0.5);
 }
 #overlay i.fas {
-	font-size: 20px;
+	font-size: 25px;
 	width: 40px;
 	height: 40px;
-	padding: 10px 0;
+	padding: 7px 0;
 	border: rgba(0,0,0,0.5);
 	color: #fff;
-	border-radius: 50%;
+	border-radius: 70%;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	transition: all 0.3s;
 	text-align: center;
@@ -732,7 +732,7 @@ label {
 #overlay .content {
   float: right;
   width: 100%;
-  height: 98%;
+  height: 95%;
   overflow: hidden;
   position: relative;
 }
