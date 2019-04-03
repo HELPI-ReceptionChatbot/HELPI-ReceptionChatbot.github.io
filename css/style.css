@@ -761,7 +761,7 @@ label {
   display: inline-block;
   clear: both;
   float: left;
-  margin: 15px 15px 5px 15px;
+  margin: 5px 5px 5px 5px;
   width: calc(100% - 25px);
   font-size: 0.9em;
 }
@@ -814,7 +814,7 @@ label {
   border: none;
   width: calc(100% - 60px);
   padding: 11px 32px 10px 8px;
-  font-size: 0.8em;
+  font-size: 1.0em;
   color: #32465a;
   margin-left: 10px
 }
