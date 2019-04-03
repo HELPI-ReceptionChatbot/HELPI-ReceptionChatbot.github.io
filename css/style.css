@@ -708,11 +708,12 @@ label {
   background: rgba(92,169,251,0.5);
 }
 #overlay i.fas {
-	font-size: 25px;
+	font-size: 20px;
 	width: 40px;
 	height: 40px;
-	padding: 7px 0;
+	padding: 10px 0;
 	border: rgba(0,0,0,0.5);
+	vertical-align: top;
 	color: #fff;
 	border-radius: 70%;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
@@ -833,9 +834,9 @@ label {
   cursor: pointer;
   background: rgba(92,169,251,0.5);
 }
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 50px) {
   #overlay .content .message-input .wrap button {
-    padding: 16px 0;
+    padding: 10px 0;
   }
 }
 #overlay .content .message-input .wrap button:hover {
