@@ -525,7 +525,7 @@ input[type="submit"]:hover {
 }
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover {
-    color: rgb(255, 255, 255);
+    color: #26476c;
 }
 .navbar-default .navbar-nav > li > a:after {
     background-color: #ee3733;
