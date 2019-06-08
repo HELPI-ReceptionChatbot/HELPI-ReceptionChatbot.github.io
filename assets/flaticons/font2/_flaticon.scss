@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 06/06/2019 08:32
+    Creation date: 08/06/2019 06:51
     */
 
     @font-face {
@@ -41,8 +41,12 @@
 .flaticon-router:before { content: "\f101"; }
 .flaticon-shield:before { content: "\f102"; }
 .flaticon-cctv:before { content: "\f103"; }
+.flaticon-usb:before { content: "\f104"; }
+.flaticon-cloud:before { content: "\f105"; }
     
     $font-Flaticon-wifi: "\f100";
     $font-Flaticon-router: "\f101";
     $font-Flaticon-shield: "\f102";
     $font-Flaticon-cctv: "\f103";
+    $font-Flaticon-usb: "\f104";
+    $font-Flaticon-cloud: "\f105";
