@@ -1,218 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sign UP</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-	<title>D-Link GeM Portal | Sign Up</title>
-
-	<!-- Page Description and Author -->
-	<meta name="description" content="D-Link GeM Portal" />
-	<meta name="author" content="D-Link" />
-
-	<!--  Favicons / Title Bar Icon  -->
-	<!-- <link rel="shortcut icon" href="assets/images/favicon/icon.png" />
-	<link rel="apple-touch-icon-precomposed" href="assets/images/favicon/icon.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon/icon.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicon/icon.png" /> -->
-
-	<!-- Bootstrap CSS  -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
-	<!-- Flat Icons -->
-	<!-- <link rel="stylesheet" href="assets/flaticons/flaticons-link.css" type="text/css" /> -->
-	<!-- Slicknav -->
-	<link rel="stylesheet" href="assets/css/slicknav.css" type="text/css" />
-	<!-- Owl Carousel -->
-	<!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css" /> -->
-	<!-- Css3 Transitions Styles  -->
-	<!-- <link rel="stylesheet" href="assets/css/animate.css" type="text/css" /> -->
-	<!-- FancyBox -->
-	<!-- <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" type="text/css" /> -->
-	<!-- Slick Slider -->
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/> -->
-
-	<!-- Main CSS   -->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<!-- Responsive CSS  -->
-	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
-
+    <link href="css/main.css" rel="stylesheet" media="all">
 </head>
+
 <body>
-	<!-- Full Body Container -->
-	<div id="all-area" class="all-section">
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">HELPI REGISTRATION</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row m-b-55">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="first_name" required>
+                                            <label class="label--desc">first name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="last_name" required>
+                                            <label class="label--desc">last name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Company</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="company" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Mobile</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="area_code" value="+91" required>
+                                            <label class="label--desc">Country Code</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="phone" required>
+                                            <label class="label--desc">Mobile Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Designation</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="designation" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Password</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="password" name="pass" required>
+                                            <label class="label--desc">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="password" name="cpass" required>
+                                            <label class="label--desc">Confirm Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row p-t-20">
+                            <label class="label label--block">Accept Terms & Conditions</label>
+                            <div class="p-t-15">
+                                <label class="radio-container m-r-55">Yes
+                                    <input type="radio" name="exist">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="radio-container">No
+                                    <input type="radio" checked="checked" name="exist">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" type="submit">Sign Up</button>
+                            <label class="label label--block">Already Registered?</label>
+                            <button class="btn btn--radius-2 btn--red" onclick="location.replace('./signin.html')">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<!-- Header Area START -->
-		<header class="clearfix header" data-spy="affix" data-offset-top="60">
-
-			<!-- Start  Logo & Menu  -->
-			<div class="navbar navbar-default navbar-top">
-				<div class="container">
-					<div class="navbar-header">
-						<!-- Stat Toggle Nav Link For Mobiles -->
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<i class="fa fa-bars"></i>
-						</button>
-						<!-- End Toggle Nav Link For Mobiles -->
-						<div class="logo">
-							<a class="navbar-brand" href="index.html">
-								<img alt="Logo" src="assets/images/logo.png">
-							</a>
-						</div> <!-- /.logo -->
-					</div>
-					<div class="navbar-collapse collapse">
-						<!-- Start Navigation List -->
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="signin.html">Sign In</a></li>
-							<li><a class="active">Sign Up</a>
-								<ul class="dropdown">
-									<li><a class="active" href="signup.html">Registered Partner</a></li>
-									<li><a href="register.html">Unregistered Partner</a></li>
-								</ul>
-							</li>
-						</ul>
-						<!-- End Navigation List -->
-					</div>
-					<!-- /.navbar-collapse -->
-				</div> <!-- /.container -->
-	
-				<!-- Mobile Menu Start -->
-				<ul class="wpb-mobile-menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#">FAQs</a></li>
-					<li><a href="signin.html">Sign In</a></li>
-					<li><a>Sign Up</a>
-						<ul class="dropdown">
-							<li><a href="signup.html">Registered Partner</a></li>
-							<li><a href="register.html">Unregistered Partner</a></li>
-						</ul>
-					</li>
-				</ul> <!-- /.wpb-mobile-menu -->
-			</div> <!-- /.navbar -->
-			<!-- End Header Logo & Naviagtion -->
-		</header> <!-- /.header -->
-		<!--Header Area END -->
-        
-        <!-- Get In Touch AREA START -->
-        <section class="get-touch section">
-			<div class="container">    
-				<div class="row">
-					<div class="col-sm-8 col-xs-12 col-sm-offset-2 col-xs-offset-0">
-						<div class="section-heading">
-							<h2 class="title" style="margin-top: 50px"><span>Sign </span>Up</h2>
-						</div>
-					</div> <!-- /.col- -->
-				</div> <!-- /.row -->
-				<div class="row">
-					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-xs-offset-0">
-						<div class="contact-form">
-                            <form id="signup-form" method="post" action="#">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" name="compname" class="form-control" placeholder="Company Name" required="required" data-error="Write your valid Company Name">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" name="conpersonname" class="form-control" placeholder="Contact Person's Name"required="required" data-error="Write your Contact Person's Name">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="mobile" name="conpersonphone" class="form-control" placeholder="Contact Person's Mobile" required="required" data-error="Write your Contact Person's Mobile">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" name="conpersonemail" class="form-control" placeholder="Contact Person's Email"required="required" data-error="Write your Valid Email">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="date" name="conpersondob" class="form-control" placeholder="Contact Person's Date of Birth" required="required" data-error="Enter your date of Birth">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" name="regemailgem" class="form-control" placeholder="Registered Email on GeM"required="required" data-error="Write your Valid Email">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="password" name="password" class="form-control" placeholder="Password" required="required" data-error="Write your Valid Password">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-                                            <input type="password" name="cnfpass" class="form-control" placeholder="Confirm Password" required="required" data-error="Write your Valid Confirm Password">
-                                        </div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <div class="form-group">
-											<p style="font-size: 18px;">By clicking Register, you accepts 
-											<a href="#">Terms & Conditions.</a></p>
-										</div>
-                                    </div> <!-- /.col- -->
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-										<div class="form-group">
-											<div class="form-btn">
-												<input type="submit" name="submit" value="Register" class="contact-form-btn">
-											</div>
-										</div>
-									</div>
-                                </div> <!-- /.row -->
-                            </form>
-                        </div> <!-- /.contact-form -->
-					</div> <!-- /.col- -->
-				</div> <!-- /.row -->  
-			</div> <!-- /.container -->
-		</section> <!-- /.get-touch -->
-		<!-- Get In Touch AREA END -->
-    </div> <!-- /#all-area -->
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="assets/js/jquery-3.2.1.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-
-	<!-- jQuery Migrate -->
-	<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-	<!-- Bootstrap -->
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- Contact Form Script-->
-    <!-- <script src="assets/contact-script/validator.js"></script> -->
-    <!-- <script src="assets/contact-script/contact.js"></script> -->
-	<!-- Owl Carousel -->
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- Slick Nav -->
-	<script src="assets/js/jquery.slicknav.js"></script>
-	<!-- Slider Touch to work -->
-	<!-- <script src="assets/js/jquery.mobile.custom.min.js"></script> -->
-	<!-- FancyBox -->
-	<script src="assets/js/jquery.fancybox.min.js"></script>
-	<!-- Isotope -->
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<!-- Counterup -->
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<!-- ProgressBar -->
-	<!-- <script src="assets/js/jquery.lineProgressbar.js"></script> -->
-	<!-- Slick Slider -->
-	<script src="assets/js/slick.min.js"></script>
-	<!-- particles.js -->
-	<!-- <script src="assets/js/particles.min.js"></script> -->
-	<!-- <script src="assets/js/particles-config.js"></script> -->
-	<!-- Google Map -->
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD92XF6BndfvP0ysXAlyvdhvaKmdqvXI5E" async defer></script> -->
-
-	<!-- Main / Custom JS  -->
-	<script src="assets/js/custom.js"></script>
 </body>
 </html>
+<!-- end document-->
